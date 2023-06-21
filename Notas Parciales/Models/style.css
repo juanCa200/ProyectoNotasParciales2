@@ -1,0 +1,37 @@
+
+body{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #1F1B24;
+    font-family: monospace,monaco;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+table{  
+    border-collapse: collapse;
+    border-radius: 100px; 
+}
+td{
+    border: 3px solid #FFBD33;
+    text-align: center;
+}
+ul{
+    color: #FFBD33;
+    font-weight: bold;
+    text-align: center;
+}
+li{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: left;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
